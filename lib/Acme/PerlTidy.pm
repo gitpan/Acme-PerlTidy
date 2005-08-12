@@ -3,7 +3,7 @@ package Acme::PerlTidy;
 use strict;
 use Perl::Tidy;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 open 0 or print "Can't open '$0'\n" and exit;
 my $src = join'', <0>;
@@ -21,7 +21,7 @@ __END__
 
 =head1 NAME
 
-Acme::PerlTidy - Double-helix programming
+Acme::PerlTidy - Clean code every time
 
 =head1 SYNOPSIS
 
